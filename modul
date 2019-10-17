@@ -1,0 +1,10 @@
+import math
+
+def menghitungDebit (v, t):
+	return v / t
+	
+def menghitungVolume (d, t):
+	return d * t
+	
+def menghitungWaktu (v, d):
+	return v / d
