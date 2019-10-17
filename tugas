@@ -1,0 +1,35 @@
+import tugasimport
+
+def main():
+	v = 40
+	t = float(input("Masukkan t : "))
+	
+	debit = tugasimport.menghitungDebit(v, t)
+	
+	print("MENGHITUNG DEBIT")
+	print("Volume\t: ", v)
+	print("Waktu\t: ", t)
+	print("Debit\t: ", debit)
+	
+	d = 30
+	t = 60
+	
+	volume = tugasimport.menghitungVolume(d, t)
+	
+	print("MENGHITUNG VOLUME")
+	print("Debit\t: ", d)
+	print("Waktu\t: ", t)
+	print("Volume\t: ", volume)
+	
+	v = 50
+	d = 20
+	
+	waktu = tugasimport.menghitungWaktu(v, d)
+	
+	print("MENGHITUNG WAKTU")
+	print("Volume\t: ", v)
+	print("Debit\t: ", d)
+	print("Waktu\t: ", waktu)
+	
+if __name__ == "__main__":
+	main()
